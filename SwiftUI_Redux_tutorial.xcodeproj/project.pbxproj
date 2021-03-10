@@ -11,6 +11,12 @@
 		B986859F25F7E9FC00DC7C78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B986859E25F7E9FC00DC7C78 /* ContentView.swift */; };
 		B98685A125F7E9FD00DC7C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98685A025F7E9FD00DC7C78 /* Assets.xcassets */; };
 		B98685A425F7E9FD00DC7C78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98685A325F7E9FD00DC7C78 /* Preview Assets.xcassets */; };
+		B98685AD25F7EA6A00DC7C78 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685AC25F7EA6A00DC7C78 /* DiceView.swift */; };
+		B98685B025F7EC5500DC7C78 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685AF25F7EC5500DC7C78 /* MyButtonStyle.swift */; };
+		B98685B325F7EE3100DC7C78 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685B225F7EE3100DC7C78 /* AppState.swift */; };
+		B98685B625F7EE7400DC7C78 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685B525F7EE7400DC7C78 /* AppAction.swift */; };
+		B98685B925F7EF8200DC7C78 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685B825F7EF8200DC7C78 /* Reducer.swift */; };
+		B98685BC25F7F7FC00DC7C78 /* AppleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98685BB25F7F7FC00DC7C78 /* AppleStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		B98685A025F7E9FD00DC7C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98685A325F7E9FD00DC7C78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B98685A525F7E9FD00DC7C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98685AC25F7EA6A00DC7C78 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		B98685AF25F7EC5500DC7C78 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		B98685B225F7EE3100DC7C78 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B98685B525F7EE7400DC7C78 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		B98685B825F7EF8200DC7C78 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		B98685BB25F7F7FC00DC7C78 /* AppleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				B98685A025F7E9FD00DC7C78 /* Assets.xcassets */,
 				B98685A525F7E9FD00DC7C78 /* Info.plist */,
 				B98685A225F7E9FD00DC7C78 /* Preview Content */,
+				B98685AC25F7EA6A00DC7C78 /* DiceView.swift */,
+				B98685B225F7EE3100DC7C78 /* AppState.swift */,
+				B98685AF25F7EC5500DC7C78 /* MyButtonStyle.swift */,
+				B98685B525F7EE7400DC7C78 /* AppAction.swift */,
+				B98685B825F7EF8200DC7C78 /* Reducer.swift */,
+				B98685BB25F7F7FC00DC7C78 /* AppleStore.swift */,
 			);
 			path = SwiftUI_Redux_tutorial;
 			sourceTree = "<group>";
@@ -139,6 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B986859F25F7E9FC00DC7C78 /* ContentView.swift in Sources */,
+				B98685B625F7EE7400DC7C78 /* AppAction.swift in Sources */,
+				B98685BC25F7F7FC00DC7C78 /* AppleStore.swift in Sources */,
+				B98685B325F7EE3100DC7C78 /* AppState.swift in Sources */,
+				B98685B025F7EC5500DC7C78 /* MyButtonStyle.swift in Sources */,
+				B98685B925F7EF8200DC7C78 /* Reducer.swift in Sources */,
+				B98685AD25F7EA6A00DC7C78 /* DiceView.swift in Sources */,
 				B986859D25F7E9FC00DC7C78 /* SwiftUI_Redux_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

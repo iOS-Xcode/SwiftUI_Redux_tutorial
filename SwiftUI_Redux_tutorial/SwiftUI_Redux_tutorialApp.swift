@@ -12,6 +12,7 @@ struct SwiftUI_Redux_tutorialApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            DiceView()
         }
     }
 }
